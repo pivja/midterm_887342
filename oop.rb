@@ -7,10 +7,10 @@ class Circle
     radius = r
   end
   def setRadius(r)
-
+  radius = r
   end
   def getRadius()
-
+  radius = r
   end
   
 end
