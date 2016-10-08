@@ -39,21 +39,3 @@ vowel = ['a','e','i','o','u']
 
 US_states.each {|key,value| puts key if (suu.include? key.upcase[0]) && (vowel.include? key.downcase[-1])}
 
-
-
-#point_ten
-class Circle
-  @PI = 3.14159
-  @radius;
-
-  def Circle(r)
-    radius = r
-  end
-  def setRadius(r)
-
-  end
-  def getRadius()
-
-  end
-  
-end
